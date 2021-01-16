@@ -1,0 +1,152 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 85px;
+}
+
+body{
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+
+.login{
+    width: 50;
+    padding-top: 10px;
+    }
+
+.logo-text{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 170px;
+}
+
+.login-label{
+    color: white;
+    font-size: 11px;
+}
+
+.login-controls{
+    margin-left: 115px;
+    padding-left: 150px;
+} 
+
+.forgotten{
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    color: #9cb4d8;
+}
+
+.sub-btn{
+    background: #4267b2;
+    color: #fff;
+    height: 20px;
+    border-color: #29487d;
+    cursor: pointer;
+}
+
+.sub-btn:hover{
+    color:lightblue;
+}
+
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+
+.right-section{
+    width: 39%;
+    float: left;
+
+}
+
+.main-body{
+    background: linear-gradient(white, #D3D8E8);
+    width: 100%;
+    height: 500px;
+}
+
+.image{
+    width: 581px;
+ }
+
+.para{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+.field{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    border-color: #fff;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 8px;
+    border: #bdc7d8;
+    outline: none;
+    margin: 4px 0;
+}
+
+.login-text{
+    width: 135px;
+}
+
+#select{
+    height: 30px;
+    width: 63px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.gray{
+    color: #90949c;
+    font-weight: bold;
+}
+
+#email{
+    width: 415px;
+}
+
+#pass{
+    width: 415px;
+    
+}
+
+.sub{
+    margin-top: 15px;
+    width: 179px;
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}

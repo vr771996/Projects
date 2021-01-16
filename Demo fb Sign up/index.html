@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="facebook.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container"> 
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email or phone</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input class="login-text" type="text"></td>
+                            <td><input class="login-text" type="text"></td>
+                            <td><input class="sub-btn" type="submit" value="Log in"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class = "forgotten" href ="forgotten.html">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+            </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the<br> people in your life.</p>
+                <img class = "image" src="fb.png">
+            </div>
+            <div class="right-section">
+                <h1>Create an account</h1>
+                <p>It's quick and easy.</p>
+                <div class="signup-controls">
+                    <form action="" class="signup-form" id="signup-form" action="hello2.html">
+                        <div class="signup-field">
+                            <input name = "fname" class="field" type="text" placeholder="First name">
+                            <input name="sname" class="field"type="text" placeholder="Surname">
+                        </div>
+                        <div  class="signup-field" id="email">
+                            <input name="emailaddress" class="field" type="text" placeholder="Email address" id="email">
+                        </div>
+                        <div class="signup-field">
+                            <input name="password" class="field"type="text" placeholder="New password" id="pass">
+                        </div>
+                        <div class="signup-field"><br>
+                            <label class="gray">Date of birth</label><br><br>
+                            <select class="dob" name="day">
+                                <option value="">day</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                            </select>
+                            <select class="dob" name="month">
+                                <option value="">jan</option>
+                                <option value="">feb</option>
+                            </select>
+                            <select class="dob" name="year">
+                                <option value="">2020</option>
+                                <option value="">2021</option>
+                            </select><br><br>
+                        </div>
+                        <div class="signup-field">
+                            <label class="gray">Gender</label>
+                            <br><br>
+                            <input name="gender" type="radio">
+                            <label>Female</label>
+                            <input name="gender" type="radio">
+                            <label>Male</label>
+                            <input name="gender" type="radio">
+                            <Label>Custom</Label>
+                        </div>
+                        <div>
+                            <button class="sub" type="submit">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
